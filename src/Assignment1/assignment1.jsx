@@ -1,6 +1,5 @@
 import React, { Component, useState } from "react";
 
-// ---------------- Class Component ----------------
 class ClassCounter extends Component {
   constructor(props) {
     super(props);
@@ -45,7 +44,6 @@ class ClassCounter extends Component {
   }
 }
 
-// ---------------- Function Component ----------------
 function FunctionCounter() {
   const [count, setCount] = useState(0);
 
@@ -78,7 +76,6 @@ function FunctionCounter() {
   );
 }
 
-// ---------------- Main Assignment Component ----------------
 export default function Assignment1() {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-10">
@@ -92,3 +89,4 @@ export default function Assignment1() {
     </div>
   );
 }
+
